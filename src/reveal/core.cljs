@@ -12,7 +12,9 @@
                        :transition  "fade"                    ; e.g. none/fade/slide/convex/concave/zoom
                        :slideNumber false
                        :dependencies [{:src "node_modules/reveal.js/plugin/notes/notes.js"
-                                       :async true}]}))
+                                       :async true}
+                                      {:src "node_modules/reveal.js/plugin/highlight/highlight.js", :async true}
+                                      ]}))
 
 
 ;; -----------------------------------------------------------------------------
